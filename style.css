@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:800px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align:center;
+    color:#333;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:gray;
+    margin-bottom:20px;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+}
+
+input{
+    flex:1;
+    padding:15px;
+    border:2px solid #667eea;
+    border-radius:10px;
+    font-size:18px;
+}
+
+button{
+    padding:15px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+    font-size:16px;
+}
+
+#addBtn{
+    background:#4CAF50;
+    color:white;
+}
+
+#addBtn:hover{
+    background:#45a049;
+}
+
+.filters{
+    text-align:center;
+    margin-top:25px;
+}
+
+.filter-btn{
+    background:#667eea;
+    color:white;
+    margin:0 5px;
+}
+
+.filter-btn:hover{
+    background:#4b5bdc;
+}
+
+li{
+    list-style:none;
+    background:#f5f5f5;
+    margin-top:20px;
+    padding:20px;
+    border-radius:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.completeBtn{
+    background:#28a745;
+    color:white;
+}
+
+.editBtn{
+    background:#ffc107;
+}
+
+.deleteBtn{
+    background:#dc3545;
+    color:white;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:gray;
+    background:#d4edda;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+/* Date and Time */
+#datetime{
+    text-align:center;
+    color:#667eea;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+/* Task Counter */
+#taskCounter{
+    text-align:center;
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+    color:#555;
+}
